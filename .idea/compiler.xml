@@ -6,12 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="multi-release-jar-main" />
         <module name="multi-release-jar" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="multi-release-jar-9" target="11" />
+      <module name="multi-release-jar-main-gradle" target="17" />
+      <module name="multi-release-jar-main-gradle.main" target="17" />
+      <module name="multi-release-jar-main-gradle.test" target="17" />
+      <module name="multi-release-jar-plugin-simple" target="17" />
+      <module name="multi-release-jar-plugin-simple.main" target="11" />
+      <module name="multi-release-jar-plugin-simple.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
