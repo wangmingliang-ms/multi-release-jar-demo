@@ -9,7 +9,6 @@
       <list>
         <option value="$PROJECT_DIR$/multi-release-jar/pom.xml" />
         <option value="$PROJECT_DIR$/multi-release-jar-main/pom.xml" />
-        <option value="$PROJECT_DIR$/multi-release-jar-9/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="multi-release-jar-main" />
-        <module name="multi-release-jar-9" />
         <module name="multi-release-jar" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="multi-release-jar-9" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

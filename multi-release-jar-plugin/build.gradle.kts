@@ -21,8 +21,6 @@ intellij {
 
 dependencies {
     implementation("org.example:multi-release-jar:1.0-SNAPSHOT")
-    implementation("org.example:multi-release-jar-9:1.0-SNAPSHOT")
-    implementation("com.azure:azure-core:1.30.0")
 }
 
 tasks {
