@@ -30,12 +30,12 @@ public class Main {
         // Java 8/ReflectionUtilsFor9: (COMPILATION ERROR)
         // Java 8/ReflectionUtilsFor8: 8 (OK)
 
-        // Java 11/DefaultVersion: 9 (OK)
+        // Java 11/DefaultVersion: 11 (OK)
         // Java 11/ReflectionUtilsApi: 9 (OK)
         // Java 11/ReflectionUtilsFor9: 9 (OK)
         // Java 11/ReflectionUtilsFor8: 8 (WARNING)
 
-        // Java 17/DefaultVersion: 9 (OK)
+        // Java 17/DefaultVersion: 17 (OK)
         // Java 17/ReflectionUtilsApi: 9 (OK)
         // Java 17/ReflectionUtilsFor9: 9 (OK)
         // Java 17/ReflectionUtilsFor8: (ERROR)
