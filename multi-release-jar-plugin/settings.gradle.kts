@@ -1,1 +1,1 @@
-rootProject.name = "multi-release-jar-plugin-simple"
+rootProject.name = "multi-release-jar-plugin"
