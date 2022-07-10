@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.example"
-version = "1.0.0-SNAPSHOT"
+version = "1.0.0-AZURE"
 
 repositories {
     mavenLocal()
@@ -21,6 +21,8 @@ intellij {
 
 dependencies {
     implementation("org.example:multi-release-jar:1.0-SNAPSHOT")
+    implementation("org.example:multi-release-jar-9:1.0-SNAPSHOT")
+    implementation("com.azure:azure-core:1.30.0")
 }
 
 tasks {
