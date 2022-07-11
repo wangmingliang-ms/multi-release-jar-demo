@@ -14,9 +14,16 @@ public class Main {
                 "DefaultVersion: " + defaultVersion
         );
 
-        // DefaultVersion: Multi-Release
-        // Java 8/DefaultVersion: 8 (OK)
-        // Java 11/DefaultVersion: 11 (OK)
-        // Java 17/DefaultVersion: 17 (OK)
+        // > Task :Main.main()
+        // javaVersion: 1.8.0_292
+        // DefaultVersion: 8
+
+        // > Task :Main.main()
+        // javaVersion: 11.0.11
+        // DefaultVersion: 11
+
+        // > Task :Main.main()
+        // javaVersion: 17
+        // DefaultVersion: 17
     }
 }
